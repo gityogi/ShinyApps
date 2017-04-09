@@ -1,0 +1,42 @@
+---
+title: "HelloShiny"
+author: "Rishabh Shukla"
+date: "April 9, 2017"
+output: ioslides_presentation
+---
+
+
+## R Markdown
+The following presentation will intend to guiden the user through assginment for Developing Data Products.
+
+For our assignment following dataset are used.
+
+1) Rock
+2) Pressure
+3) Cars
+
+## Data Insight
+
+Let's get started by having some insight of the data
+
+```{r echo=FALSE}
+head(rock,3)
+head(pressure,3)
+head(cars,3)
+```
+
+## Slide with Bullets
+Below is the link for the application.
+ https://rishabh.shinyapps.io/Hello_Shiny/
+
+* First from the dropdown select the required dataset.
+* Also select the number of observation.
+
+The effect will be shown on the main Panel dynamically as you select different dataset and different number of observation.
+
+
+
+## Thanks
+
+
+
